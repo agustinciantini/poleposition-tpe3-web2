@@ -2,8 +2,8 @@
 
 # Integrantes:
 
-* Martin Nicolas Larrosa.
-* Agustin Ciantini.
+* Martin Nicolas Larrosa - (41399709) | (martinnicolas.larrosa@gmail.com)
+* Agustin Ciantini - (46697739) | (agustinciantini10@gmail.com)
 
 ## Descripción:
 
@@ -17,7 +17,7 @@ La URL base para todas las peticiones es **`http://localhost/pole-position/api/`
 
 | Verbo HTTP | Endpoint | ¿Qué hace? |
 | :--- | :--- | :--- |
-| **GET** | `/api/token` | **Login / Autenticación.** Devuelve el JWT (JSON Web Token) usando **Basic Auth** con `username` (webadmin) y `password`. (admin) |
+| **GET** | `/api/token` | **Login / Autenticación.** Devuelve el JWT (JSON Web Token) usando **Basic Auth** con `username` (webadmin) y `password` (admin) |
 | **GET** | `/api/resultados` | Devuelve **todos los resultados** de carreras. |
 | **GET** | `/api/resultado/:id` | Devuelve los detalles de un **resultado específico** según su `resultado_id`. |
 | **POST** | `/api/resultado` | Permite **crear un nuevo resultado** (requiere JSON Body con `piloto_id`, `carrera_id`, `posicion`, `tiempo`). |
